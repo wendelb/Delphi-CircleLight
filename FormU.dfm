@@ -1,9 +1,10 @@
 object FrmCircleLight: TFrmCircleLight
   Left = 0
   Top = 0
-  Caption = 'Form1'
-  ClientHeight = 243
-  ClientWidth = 527
+  BorderStyle = bsNone
+  Caption = 'CircleLight'
+  ClientHeight = 281
+  ClientWidth = 543
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
