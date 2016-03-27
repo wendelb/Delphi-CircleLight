@@ -2,13 +2,13 @@ program CircleLight;
 
 uses
   Vcl.Forms,
-  FormU in 'FormU.pas' {Form1};
+  FormU in 'FormU.pas' {FrmCircleLight};
 
 {$R *.res}
 
 begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
-  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TFrmCircleLight, FrmCircleLight);
   Application.Run;
 end.

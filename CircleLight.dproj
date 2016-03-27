@@ -83,7 +83,7 @@
 				<MainSource>MainSource</MainSource>
 			</DelphiCompile>
 			<DCCReference Include="FormU.pas">
-				<Form>Form1</Form>
+				<Form>FrmCircleLight</Form>
 				<FormType>dfm</FormType>
 			</DCCReference>
 			<BuildConfiguration Include="Release">

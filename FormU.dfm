@@ -1,4 +1,4 @@
-object Form1: TForm1
+object FrmCircleLight: TFrmCircleLight
   Left = 0
   Top = 0
   Caption = 'Form1'
@@ -10,7 +10,16 @@ object Form1: TForm1
   Font.Height = -11
   Font.Name = 'Tahoma'
   Font.Style = []
+  KeyPreview = True
   OldCreateOrder = False
+  OnCreate = FormCreate
+  OnKeyDown = FormKeyDown
   PixelsPerInch = 96
   TextHeight = 13
+  object Timer: TTimer
+    Interval = 20
+    OnTimer = TimerTimer
+    Left = 256
+    Top = 128
+  end
 end
